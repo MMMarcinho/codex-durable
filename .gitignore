@@ -1,0 +1,5 @@
+node_modules/
+.codex-durable/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

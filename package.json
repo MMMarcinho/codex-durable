@@ -1,0 +1,12 @@
+{
+  "name": "codex-durable",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "bin": { "codex-durable": "./src/cli.js" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/cli.js && node --check src/store.js && node --check src/scene.js && node --check src/source.js && node --check src/runner.js"
+  }
+}
